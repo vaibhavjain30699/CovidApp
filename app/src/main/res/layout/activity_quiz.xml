@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".quiz">
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:textSize="25dp"
+        android:background="@drawable/roundedbtn"
+        android:text="Exit" />
+
+    <TextView
+        android:paddingVertical="75dp"
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question"
+        android:textSize="40dp"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/low"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:paddingHorizontal="10dp"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:background="@drawable/roundedbtn"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/medium"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:paddingHorizontal="10dp"
+        android:textSize="25dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/roundedbtn"
+        android:layout_height="wrap_content"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/high"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:paddingHorizontal="10dp"
+        android:background="@drawable/roundedbtn"
+        android:layout_height="wrap_content"
+        android:gravity="center" />
+
+<!--    <RadioGroup-->
+<!--        android:id="@+id/radiogroup"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--        <RadioButton-->
+<!--            android:id="@+id/low"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Low" />\-->
+
+<!--        <RadioButton-->
+<!--            android:id="@+id/medium"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Medium" />-->
+
+<!--        <RadioButton-->
+<!--            android:id="@+id/high"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="High" />-->
+
+<!--    </RadioGroup>-->
+
+
+
+</LinearLayout>
